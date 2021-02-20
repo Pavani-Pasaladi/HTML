@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Interior Design</title>
+    </head>
+    <style>
+        .Navigation{
+            background-color:black;
+            font-size:x-large; 
+            margin: auto;
+            padding: 15px;   
+        }
+        .Nav{
+            color:whitesmoke;
+            margin-right: 50px;   
+        }
+        #header{  
+            color:rgb(226, 162, 43);
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 50px;
+        }
+        #heading{
+            color: forestgreen;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+            font-size: x-large;
+        }
+        #cost{
+            background-color:black;
+            color: palegreen;
+            padding: 40px;
+        }
+        #unordered{
+            margin-left: 20%;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .Contact{
+            text-align: center;
+            font-size: large;
+        }
+        .footer{
+            color:forestgreen;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+            font-size: x-large;
+        }
+        input[type=text], select {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type=tel],select{
+            width: 50%;
+            padding: 12px 20px;
+            margin: 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .submit {
+        background-color: forestgreen;
+        width: 50%;
+        padding: 10px;
+        }  
+    </style>
+    
+    <body>
+        <div class="Navigation">
+            <a class="Nav" href="#home">Home</a>
+            <a class="Nav" href="#Catalog">Catalog</a>
+            <a class="Nav" href="#Price">Price</a>
+            <a class="Nav" href="#About" >About</a>
+            <a class="Nav" href="#Contact" >Contact</a>
+        </div>
+        <div>
+            <div>
+                <h1 id="header">Interior Design</h1>
+            </div>
+        </div>
+
+        <div>
+            <p id="heading">Catalog</p>
+            <div>
+                <img src="./Design 1.jfif" id="Catalog" alt="Design1" width="420" height="333">
+                <img src="./Design2.jpg" id="Catalog" alt="Design2" width="450" height="333">
+                <img src="./Design3.jfif" id="Catalog" alt="Design3" width="600" height="333">
+                <img src="./Design4.jpg" id="Catalog" alt="Design4" width="800" height="600">
+                <img src="./Design5.jfif" id="Catalog" alt="Design5" width="670" height="600">
+            </div>
+        </div>
+        <div id="cost">
+            <h1 id="Price" style="color: aqua;">Price</h1>
+            <p id="Price"><b style="color: aqua;">Interior designing services</b> are getting more and more popular as time passes and today, the vast majority of the flat proprietors need to get proper interior designing done before moving into their houses.</p>
+            <p id="Price">Normally, the interior design cost is not any more expensive issue, given the favorable circumstances and advantages, it offers for the occupants. Yet at the same time, there are numerous who feel that interior designing will be an exorbitant issue and it’s for individuals with large pockets. </p><br>
+            <p id="Price"><strong style="color: aqua;">Per Sqft:</strong><br><br> Based on the region of the home, the designer charges around <strong style="color: aqua;">₹10</strong> per sqft and this can go up to <strong style="color: aqua;">₹100</strong> also, in case you’re searching for the design alone. Be that as it may, inclusive of products, carpentry i.e, measured kitchen and closets, deck and roof, this cost can shoot up to <strong style="color: aqua;">₹2,000 – 3,000</strong> as well. It is smarter to check with the designer on what it incorporates as some of them just offer woodwork or some prohibit soft furnishings like draperies, blinds, etc.</p><br>
+            <p id="Price"><strong style="color: aqua;">Percentage of Overall Cost:</strong><br><br> The designer figures the general cost of the venture inclusive of products and services. In view of the total cost, they will charge around <strong style="color: aqua;">6%-15%</strong> as a design expense. This can shoot up to <strong style="color: aqua;">20%</strong> dependent on the level of design and expertise included.</p><br>
+            <p id="Price"><strong style="color: aqua;">The markup on Products:</strong><br><br> In layman terms, this implies the designer will charge a premium on each item you purchase. Eg: If your couch’s cost is around <strong style="color: aqua;">₹20,000</strong>, the designers may stamp it as <strong style="color: aqua;">₹22,000</strong> while charging it to the project. The premium differs from venture to venture. </p><br>
+        </div>
+
+        <div id="Designers">
+            <h1 id="About" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align: center;">About First Biz Interiors</h1>
+            <ul id="unordered">
+                <p>First Biz provide interior design & build services.</p>
+                <p>Our highly qualified team of Interior designers, Engineers and Project managers have a sound experience in the industry.</p>
+                <p>Our team carries out quality and workmanship audits during the progress of work.</p>
+                <p>Our team undergoes continuous training to keep ourselves updated about the latest products, methodologies and other aspects of interior fit-outs.</p>
+            </ul>
+        </div>
+        
+        <div class="Contact" id="Contact">
+            <h1 class="footer">Contact</h1>
+            <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
+            <form>
+              
+                <label id="Contact">Name</label>
+                <input id="Contact"  type="text" name="Name"  required><br><br>
+                <label id="Contact">Mobile No</label>
+                <input id="Contact"  type="tel" name="Name"  required><br><br>
+                <label id="Contact">Email</label>
+                <input  id="Contact" type="text" name="Email"  required><br><br>
+                <label id="Contact">Message</label>
+                <input  id="Contact" type="text" name="Message"  required><br><br>
+                <button class="submit" id="Contact" type="submit">Submit</button>
+            </form>  
+        </div>   
+    </body>
+</html>
