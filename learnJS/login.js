@@ -13,8 +13,8 @@ function login() {
 
         console.log('Successfully logedin');
 
-        //document.getElementById('result').innerHTML = 'Successfully logedin';
-        //document.getElementById('result').style.color('green');
+        document.getElementById('result').innerHTML = 'Successfully logedin';
+        document.getElementById('result').style.color('green');
 
         
         
@@ -22,8 +22,8 @@ function login() {
     else{
 
         console.log('Invalid emailId/password');
-        //document.getElementById('result').innerHTML = 'Invalid emailId/password';
-        //document.getElementById('result').style.color('red');
+        document.getElementById('result').innerHTML = 'Invalid emailId/password';
+        document.getElementById('result').style.color('red');
         
     }
     
