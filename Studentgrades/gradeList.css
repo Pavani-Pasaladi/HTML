@@ -1,0 +1,14 @@
+#cgpa{
+    background-color:gold;
+    margin-left: 450px;
+    margin-right: 500px;
+    padding: 25px;
+    padding-left: 150px;
+    padding-right: 2px;
+    
+    border-radius: 60px;
+}
+#header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: hsl(hue, saturation, lightness);
+}
